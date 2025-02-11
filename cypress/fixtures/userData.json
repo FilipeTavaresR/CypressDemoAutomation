@@ -1,0 +1,32 @@
+{
+  "validUser": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "address": "123 Main St",
+    "email": "john@example.com",
+    "phone": "1234567890",
+    "gender": "Male",
+    "hobbies": ["Cricket", "Movies"],
+    "languages": ["Arabic", "Bulgarian"],
+    "skill": "Java",
+    "country": "India",
+    "yearBirth": "1990",
+    "monthBirth": "January",
+    "dayBirth": "15",
+    "password": "Password1",
+    "confirmPassword": "Password1"
+  },
+  "invalidPhone": {
+    "phone": "1234"
+  },
+  "invalidEmail": {
+    "email": "invalid-email"
+  },
+  "invalidConfirmPassword": {
+    "password": "Password1",
+    "confirmPassword": "Passwo"
+  },
+  "weakPassword": {
+    "password": "passw"
+  }
+}
