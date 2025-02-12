@@ -26,8 +26,9 @@ A estrutura do projeto está organizada da seguinte forma:
 ```
 /cypress
   /fixtures      # Dados de teste (massas de dados)
-  /integration   # Testes end-to-end
+  /e2e           # Testes end-to-end
   /support       # Comandos e configurações auxiliares (se necessário)
+  /pages         # Classes para representar as páginas e suas interações 
 cypress.config.js # Configurações do Cypress
 ```
 
