@@ -36,7 +36,7 @@ cypress.config.js # Configurações do Cypress
 
 - **Fixtures**: Contém os dados utilizados nos testes, como informações de usuário válidas e inválidas.
 - **Pages**: Contém classes que representam as páginas do site e as interações com o formulário de cadastro.
-- **Testes (integration)**: Contém os cenários de teste que validam o comportamento do formulário de cadastro.
+- **Testes (e2e)**: Contém os cenários de teste que validam o comportamento do formulário de cadastro.
 
 ## Como Rodar o Projeto
 
