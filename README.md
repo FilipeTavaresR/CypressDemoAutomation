@@ -48,12 +48,12 @@ cypress.config.js # Configurações do Cypress
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+   git clone https://github.com/FilipeTavaresR/CypressDemoAutomation.git
    ```
 
 2. Navegue até a pasta do projeto:
    ```bash
-   cd NOME_DO_REPOSITORIO
+   cd caminho/CypressDemoAutomation
    ```
 
 3. Instale as dependências:
@@ -69,15 +69,16 @@ cypress.config.js # Configurações do Cypress
 
 ## Testes Implementados
 
-1. **Cadastro com Sucesso**: Valida o preenchimento completo e correto do formulário.
-2. **Campos Obrigatórios**: Valida se os campos obrigatórios geram mensagens de erro adequadas quando deixados em branco.
-3. **Validação de Email**: Testa o comportamento ao inserir um email inválido.
-4. **Validação de Senha**: Testa senhas fracas e senhas que não coincidem com a confirmação.
-5. **Validação de Telefone**: Testa um número de telefone inválido.
+1. **Should register successfully with valid data**: Valida o preenchimento completo e correto do formulário.
+2. **Should show error when fields are empty**: Valida se os campos obrigatórios geram mensagens de erro adequadas quando deixados em branco.
+3. **Should show error when an invalid email is entered**: Testa o comportamento ao inserir um email inválido.
+4. **should show error when a weak password is entered**: Testa senhas fracas.
+5. **Should show error when an invalid phone is entered**: Testa um número de telefone inválido.
+6. **Should show error for mismatched passwords**: Testa senhas que não coincidem com a confirmação.
 
 ## Contribuições
 
-Este projeto não está aberto para contribuições no momento, mas você pode explorar e aprender sobre a implementação de testes end-to-end com Cypress.
+Você pode explorar este projeto e aprender sobre a implementação de testes end-to-end com Cypress.
 
 ## Licença
 
