@@ -10,7 +10,8 @@ O objetivo deste projeto é validar o funcionamento correto do formulário de ca
 - Cadastro com sucesso.
 - Validação de campos obrigatórios.
 - Validação de e-mails inválidos.
-- Validação de senhas fracas e não coincidentes.
+- Validação de senhas fracas.
+- Validação de senhas não coincidentes.
 - Validação de telefone inválido.
 
 ## Tecnologias Utilizadas
@@ -75,6 +76,10 @@ cypress.config.js # Configurações do Cypress
 4. **should show error when a weak password is entered**: Testa senhas fracas.
 5. **Should show error when an invalid phone is entered**: Testa um número de telefone inválido.
 6. **Should show error for mismatched passwords**: Testa senhas que não coincidem com a confirmação.
+
+## Relatório evidenciando a execução dos testes  
+
+![image](https://github.com/user-attachments/assets/629201d6-9cd6-4cdb-b871-154d004bfbe0)
 
 ## Contribuições
 
